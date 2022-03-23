@@ -1,3 +1,27 @@
-h1 {
-    color: red;
+:root{
+    --gris:#524A4E;
+    --chicle: #FF5C8D;
+    --rosa: #FFC0D3;
+    --blanco: #FDEFF4;
+    --amarillo: #ffc107;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+
+.titulo {
+    color: var(--amarillo);
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.titulo span {
+    font-size: 2rem;
 }
